@@ -1,11 +1,10 @@
 import React from "react";
 
 const style = {
+    display: 'flex',
+    flexDirection: "row",
+    flexWrap: "wrap",
     paddingTop: "10px",
-    height: "100%",
-    display: "flex",
-    flexFlow: "row wrap",
-    justifyContent: "space-around",
     overflow: "auto",
     marginLeft: "auto",
     marginRight: "auto"
